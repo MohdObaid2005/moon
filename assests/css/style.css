@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration-line: none;
+}
+ul{
+    list-style-type: none;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.listWords ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.header .logo{
+    padding: 21.84px;
+}
+.listWords a{
+ color: #3A3845;
+}
+.listIcons ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
