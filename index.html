@@ -1,60 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <!--The following sentence is for the media query-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assests/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assests/css/style.css" />
 </head>
+
 <body>
 
-    <div class="header">
-        <div class="container">
-        <div class="logo">
-            <img src="./assests/img/logo.svg" alt="logo">
-        </div>
-        <div class="listWords">
-            <ul>
-                <li>
-                    <a href="#">home</a>
-                </li>
-                <li>
-                    <a href="#">shop</a>
-                </li>
-                <li>
-                    <a href="#">about</a>
-                </li>
-                <li>
-                    <a href="#">contact</a>
-                </li>
-            </ul>
-        </div>
-        <div class="listIcons">
-            <ul>
-                <li>
-                    <a href="#">
-                        <img src="./assests/img/Search.svg" alt="">
-                    </a>
-                </li>
-                 <li>
-                    <a href="#">
-                        <img src="./assests/img/Avatar.svg" alt="">
-                    </a>
-                </li>
-                 <li>
-                    <a href="#">
-                        <img src="./assests/img/Heart.svg" alt="">
-                    </a>
-                </li>
-                 <li>
-                    <a href="#">
-                        <img src="./assests/img/Shopping cart.svg" alt="">
-                    </a>
-                </li>
-            </ul>
-        </div>
-        </div>
-    </div>
+    <header class="header">
 
+        <div class="container">
+            <div class="row">
+                <div class="imgList">
+                    <a href="#">
+                        <img src="./assests/img/Menu.svg" />
+                    </a>
+                </div>
+                <div class="logo">
+                    <img src="./assests/img/logo.svg" alt="logo">
+                </div>
+                <nav class="listWords">
+                    <ul>
+                        <li>
+                            <a href="#">home</a>
+                        </li>
+                        <li>
+                            <a href="#">shop</a>
+                        </li>
+                        <li>
+                            <a href="#">about</a>
+                        </li>
+                        <li>
+                            <a href="#">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="listIcons">
+                    <ul>
+                        <li class="headdenIcon">
+                            <a href="#">
+                                <img src="./assests/img/Search.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="headdenIcon">
+                            <a href="#">
+                                <img src="./assests/img/Avatar.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="headdenIcon">
+                            <a href="#">
+                                <img src="./assests/img/Heart.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assests/img/Shopping cart.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="collections">
+        <div class="container">
+            <div class="row">
+                <div class="collection">
+                    <img src="./assests/img/Image (1).webp" />
+                    <h3>TableWare</h3>
+                </div>
+                <div class="collection">
+                    <img src="./assests/img/Image (2).webp" />
+                    <h3>Home decor</h3>
+                </div>
+                <div class="collection">
+                    <img src="./assests/img/Image (3).webp" />
+                    <h3>holiday</h3>
+                </div>
+                <div class="collection">
+                    <img src="./assests/img/Image (4).webp" />
+                    <h3>Collection</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
 </body>
+
 </html>
